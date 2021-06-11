@@ -1,15 +1,13 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 using ProjectEuler;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ProjectEulerTests
 {
     [TestClass]
     public class SolutionsTests
     {
-        private Answers answers = new Answers(@"C:\Users\thomb\source\repos\ProjectEuler\ProjectEulerTests\Answers.txt");
+        private Answers answers = new Answers(@"C:\Users\thomb\source\repos\cs.projecteuler\ProjectEuler\ProjectEulerTests\Answers.txt");
         private Solutions solutions = new Solutions();
 
         [TestMethod]

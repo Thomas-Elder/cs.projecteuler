@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ProjectEuler
+namespace Utility
 {
     public class Multiples
     {

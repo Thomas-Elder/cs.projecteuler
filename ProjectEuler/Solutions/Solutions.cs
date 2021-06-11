@@ -1,7 +1,7 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using System.Collections.Generic;
-using System.Text;
+
+using Utility;
 
 namespace ProjectEuler
 {
@@ -89,7 +89,7 @@ namespace ProjectEuler
 
         public long Problem8()
         {
-            System.IO.StreamReader file = new System.IO.StreamReader(@"C:\Users\thomb\source\repos\ProjectEuler\ProblemOne\files\Problem8.txt");
+            System.IO.StreamReader file = new System.IO.StreamReader(@"C:\Users\thomb\source\repos\cs.projecteuler\ProjectEuler\Solutions\files\Problem8.txt");
             char [] number = file.ReadToEnd().ToCharArray();
             int[] intArray = new int[1000];
 
